@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 participant browser
 participant server
@@ -32,3 +33,4 @@ participant server
     deactivate server
 
     Note right of browser: server will fetch note content from data.json and also create li element and append to ul list
+```
